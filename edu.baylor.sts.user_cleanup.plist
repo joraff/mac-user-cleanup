@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>edu.baylor.sts.user_cleanup</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>ruby</string>
+		<string>/usr/local/bin/scripts/user_cleanup.rb</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+	<integer>604800</integer>
+	<key>ServiceDescription</key>
+	<string>STS User cleanup scripts. Deletes old user profiles. Runs at system start and every 7 days thereafter.</string>
+</dict>
+</plist>
